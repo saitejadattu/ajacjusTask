@@ -1,0 +1,54 @@
+.user-detailed-view-container{
+    background-color: #ebe1e1;
+    border-radius: 10px;
+    min-height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+.user-name-and-initial-container{
+    display: flex;
+    flex-direction: row;
+}
+.user-initial-name{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: #a79f9f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 21px;
+    color: rgb(72, 2, 147);
+    margin-right: 15px;
+    margin-top: 0px;
+}
+.user-name{
+    font-size: 21px;
+    font-weight: 600;
+    align-self: center;
+    margin: 0px;
+}
+.user-company-name{
+    font-size: 15px;
+}
+.user-card-company{
+    font-weight: 600;
+    color: rgb(23, 22, 22);
+    font-size: 18px;
+}
+
+.user-delete-adn-add-button-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.user-delete-button{
+    border: 0px;
+    background-color: transparent;
+    cursor: pointer;
+}

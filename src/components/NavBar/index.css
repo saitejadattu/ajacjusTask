@@ -1,0 +1,20 @@
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffff;
+}
+.nav-heading{
+    font-weight: 600;
+    font-size: 40px;
+    color: #262424;
+}
+.add-user-button{
+    padding: 10px;
+    background-color: rgb(28, 28, 205);
+    border-radius: 5px;
+    color: #fff;
+}

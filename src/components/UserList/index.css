@@ -1,0 +1,99 @@
+.user-list-bg-container {
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.user-list-container {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.user-list-unordered-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    margin-right: 20px;
+}
+
+.face-icon {
+    font-size: 20px;
+}
+
+.user-profile-detailes {
+    background-color: #ebe1e1;
+    height: 80vh;
+    width: 100%;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.user-location {
+    background-color: rgb(255, 158, 39);
+    color: #fff;
+    align-self: center;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.user-name-and-location{
+    display: flex;
+}
+.user-location-city-name{
+    font-weight: 500;
+    color: rgb(28, 26, 26);
+}
+.user-detailed-name{
+    font-size: 35px;
+    font-weight: 500;
+    color: rgb(28, 23, 23);
+}
+.user-icon-and-details{
+    display: flex;
+    justify-content: space-between;
+}
+.user-details{
+    align-self: flex-start;
+    text-align: flex-start;
+}
+.user-description-main-container{
+    margin-top: 20px;
+}
+.user-description-container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.user-de{
+    padding-left: 15px;
+}
+.user-name-and-company-name{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+.user-company-name{
+    align-self: center;
+}
+.user-de{
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(26, 25, 25);
+}
+.user-details{
+    color: rgb(49, 41, 41);
+    font-size: 20px;
+    font-weight: 400;
+}
+.user-location-city-name{
+    margin-left: 20px;
+}
