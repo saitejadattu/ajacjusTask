@@ -36,7 +36,6 @@ const UserList = () => {
     return (
         <div className='user-list-bg-container'>
             <NavBar />
-            <hr />
             <div className='user-list-container'>
                 <ul className='user-list-unordered-list'>
                     {userList ? userList.map((eachUser) => <UserCard key={eachUser.id} user={eachUser} handleDel={handleDel} handleUser={handleUser} />) : <p>loading....</p>}
